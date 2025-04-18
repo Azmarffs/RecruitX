@@ -1,0 +1,80 @@
+.applicant-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #223a5e;
+  }
+  
+  h2 {
+    color: #5bc0be;
+    margin-top: 20px;
+  }
+  
+  .resume-completion {
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #ccc;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #5bc0be;
+    transition: width 0.3s ease;
+  }
+  
+  .recent-applications ul,
+  .suggested-skills ul,
+  .notifications ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recent-applications li,
+  .suggested-skills li,
+  .notifications li {
+    margin-bottom: 10px;
+  }
+  
+  .status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .status.applied {
+    background-color: #5bc0be;
+    color: white;
+  }
+  
+  .status.rejected {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .upcoming-interviews .interview-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .interview-card {
+    background-color: #f5f7fa;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .interview-card h3 {
+    margin: 0 0 10px;
+    color: #223a5e;
+  }
